@@ -41,7 +41,7 @@ label {
     margin-top: 10px;
     display: inline-block;
     background: linear-gradient(45deg,rgba(10, 115, 0, 1), rgba(10, 115, 0, 0.575));
-    border: 1px solid rgba(10, 115, 0, 0.75);
+    border: 0px solid rgba(10, 115, 0, 0.75);
     box-shadow: 0 0 5px rgba(10, 115, 0);
     width: 150px;
     height: 75px;
