@@ -1,0 +1,54 @@
+body {
+    font-family: Kristen ITC, sans-serif;
+    margin: 20px;
+    background-image: url("bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(247, 255, 86);
+}
+
+.episode {
+    display: none;
+    margin-top: 10px;
+    margin: 10px auto;
+    border: 1px solid rgb(159, 36, 143); 
+    border-radius: 12px;
+    width: 560px;
+    padding: 7px;
+    text-align: center;
+    background-color: rgb(255, 56, 228);
+}
+
+.watchimg {
+    width: 128px;
+    height: 29px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    color: #f7ff56;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: inline-block;
+    background: linear-gradient(45deg,rgba(10, 115, 0, 1), rgba(10, 115, 0, 0.575));
+    border: 1px solid rgba(10, 115, 0, 0.75);
+    box-shadow: 0 0 5px rgba(10, 115, 0);
+    width: 150px;
+    height: 75px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+input[type="checkbox"]:checked + label + .episode {
+    display: block;
+}
